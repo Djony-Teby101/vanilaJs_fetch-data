@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+.carte{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.carte-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.carte-name{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsla(0, 0%, 20%);
+}
+.carte-desc{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(188, 176, 161);
+}
